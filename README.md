@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @BlagodarovVA
-- 👀 I’m interested in motorcycles, electric guitar, investments.
+- 👀 I’m interested in motorcycles, electric guitar, travels.
 - 🌱 I’m currently learning JS, NodeJS.
-- 📫 How to reach me: 11w-walerik@mail.ru
+- 📫 How to reach me: vablagodarov@gmail.com
 
 <!---
 BlagodarovVA/BlagodarovVA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
