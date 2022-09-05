@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @BlagodarovVA
+- 👋 Hi, I’m Valery
 - 👀 I’m interested in motorcycles, electric guitar, travels.
 - 🌱 I’m currently learning JS, NodeJS.
 - 📫 How to reach me: vablagodarov@gmail.com
