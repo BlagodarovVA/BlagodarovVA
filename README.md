@@ -3,7 +3,7 @@
 <h3 align="center">JavaScript, Node.js, ITSM developer.</h3>
 <h3 align="center">I’m currently learning JS, Node.js and other technologies for the backend.</h3>
 
-[![codewars](https://www.codewars.com/users/BlagodarovVA/badges/medium?theme=light)](https://www.codewars.com/users/BlagodarovVA) 
+[![codewars](https://www.codewars.com/users/BlagodarovVA/badges/small?theme=light)](https://www.codewars.com/users/BlagodarovVA) 
 
 <!---
 BlagodarovVA/BlagodarovVA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
