@@ -1,26 +1,23 @@
 <svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
   <style>
-    /* Светлая тема по умолчанию */
     .bg { fill: #ffffff; }
     .wave { fill: none; stroke: #007a7a; stroke-width: 2; }
+    .text { font-family: monospace; font-size: 12px; fill: #333; }
     .grid { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 2,2; }
-    .text { font-family: monospace; font-size: 12px; fill: #007a7a; }
 
-    /* Темная тема */
     @media (prefers-color-scheme: dark) {
       .bg { fill: #0d0d0d; }
       .wave { stroke: #00ffcc; }
+      .text { fill: #ffffff; }
       .grid { stroke: #333; }
-      .text { fill: #00ffcc; }
     }
   </style>
 
-  <!-- Фон с классом -->
   <rect width="100%" height="100%" class="bg"/>
 
   <!-- Сетка -->
   <g class="grid">
-    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="140" x2="600" y2="140"/>
     <line x1="100" y1="0" x2="100" y2="200"/>
     <line x1="200" y1="0" x2="200" y2="200"/>
     <line x1="300" y1="0" x2="300" y2="200"/>
@@ -28,19 +25,23 @@
     <line x1="500" y1="0" x2="500" y2="200"/>
   </g>
 
-  <!-- Синусоида -->
-  <path class="wave" d="M 0 120 C 100 60, 200 180, 300 120 C 400 60, 500 180, 600 120">
-    <animate attributeName="d" dur="3s" repeatCount="indefinite"
+  <!-- Синусоида с ещё большей амплитудой -->
+  <path class="wave">
+    <animate 
+      attributeName="d"
+      dur="4s"
+      repeatCount="indefinite"
       values="
-        M 0 120 C 100 60, 200 180, 300 120 C 400 60, 500 180, 600 120;
-        M 0 120 C 100 80, 200 160, 300 120 C 400 80, 500 160, 600 120;
-        M 0 120 C 100 100, 200 140, 300 120 C 400 100, 500 140, 600 120;
-        M 0 120 C 100 60, 200 180, 300 120 C 400 60, 500 180, 600 120
-      "/>
+        M 0 120 C 50 91, 100 149, 150 120 C 200 79, 250 161, 300 120 C 350 107, 400 133, 450 120 C 500 72, 550 168, 600 120;
+        M 0 120 C 50 107, 100 133, 150 120 C 200 91, 250 149, 300 120 C 350 79, 400 161, 450 120 C 500 107, 550 133, 600 120;
+        M 0 120 C 50 79, 100 161, 150 120 C 200 107, 250 133, 300 120 C 350 91, 400 149, 450 120 C 500 79, 550 161, 600 120;
+        M 0 120 C 50 91, 100 149, 150 120 C 200 79, 250 161, 300 120 C 350 107, 400 133, 450 120 C 500 72, 550 168, 600 120
+      "
+    />
   </path>
 
   <!-- Радиоволны -->
-  <g transform="translate(50,120)">
+  <g transform="translate(50,140)">
     <circle r="5" class="wave">
       <animate attributeName="r" from="5" to="40" dur="2s" repeatCount="indefinite" />
       <animate attributeName="opacity" from="1" to="0" dur="2s" repeatCount="indefinite" />
