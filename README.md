@@ -1,7 +1,9 @@
 <h3 align="center">Hi
   <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
 </h3>
-<h3 align="center">I am JavaScript, HPSM developer, currently learning Java.</h3>
+<h3 align="center">Привет! Здесь — мои проекты: JavaScript, HPSM и Java в процессе освоения.</h3>
+<h3 align="center">Иногда может появляться что-то связанное с радио.</h3>
+<h3 align="center">Ничего сверхъестественного, но если вы тут — возможно, мы решаем похожие задачи.</h3>
 
 <p align="center">
   <a href="https://www.codewars.com/users/BlagodarovVA">
