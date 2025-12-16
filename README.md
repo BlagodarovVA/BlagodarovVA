@@ -6,11 +6,11 @@
 <h3 align="center">Ничего сверхъестественного, но если вы тут — возможно, мы решаем похожие задачи.</h3>
 
 <p align="center">
-  <a href="https://www.codewars.com/users/BlagodarovVA  ">
-    <img src="https://www.codewars.com/users/BlagodarovVA/badges/small?theme=light  " alt="Codewars badge"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/BlagodarovVA/BlagodarovVA/main/radio-wave.svg  " width="600"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BlagodarovVA/BlagodarovVA/main/radio-wave.svg  " width="600"/>
+  <a href="https://www.codewars.com/users/BlagodarovVA  ">
+    <img src="https://www.codewars.com/users/BlagodarovVA/badges/small?theme=light  " alt="Codewars badge"/>
+  </a>
 </p>
