@@ -1,0 +1,56 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .wave { fill: none; stroke: #00ffcc; stroke-width: 2; }
+    .grid { stroke: #333; stroke-width: 0.5; stroke-dasharray: 2,2; }
+    .text { font-family: monospace; font-size: 12px; fill: #00ffcc; }
+  </style>
+
+  <!-- Фон -->
+  <rect width="100%" height="100%" fill="#0d0d0d"/>
+
+  <!-- Сетка -->
+  <g class="grid">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="100" y1="0" x2="100" y2="200"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="200"/>
+  </g>
+
+  <!-- Анимированная синусоида -->
+  <path class="wave" d="
+    M 0 100
+    C 100 40, 200 160, 300 100
+    C 400 40, 500 160, 600 100
+  ">
+    <animate attributeName="d" dur="3s" repeatCount="indefinite"
+      values="
+        M 0 100 C 100 40, 200 160, 300 100 C 400 40, 500 160, 600 100;
+        M 0 100 C 100 60, 200 140, 300 100 C 400 60, 500 140, 600 100;
+        M 0 100 C 100 80, 200 120, 300 100 C 400 80, 500 120, 600 100;
+        M 0 100 C 100 40, 200 160, 300 100 C 400 40, 500 160, 600 100
+      "/>
+  </path>
+
+  <!-- Радиоволны (расходящиеся круги) -->
+  <g transform="translate(50,100)">
+    <circle r="5" class="wave">
+      <animate attributeName="r" from="5" to="40" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle r="5" class="wave">
+      <animate attributeName="r" from="5" to="40" dur="2s" begin="0.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="2s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+    <circle r="5" class="wave">
+      <animate attributeName="r" from="5" to="40" dur="2s" begin="0.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="1" to="0" dur="2s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Текст: радиолюбитель + кодер -->
+  <text x="550" y="30" class="text" text-anchor="end">📡 144.500 MHz</text>
+  <text x="550" y="50" class="text" text-anchor="end">💻 dev@radio</text>
+  <text x="550" y="70" class="text" text-anchor="end">⚡ OBD2 // SDR // C++</text>
+</svg>
