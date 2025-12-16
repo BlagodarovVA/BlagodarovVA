@@ -51,6 +51,6 @@
 
   <!-- Текст: радиолюбитель + кодер -->
   <text x="550" y="30" class="text" text-anchor="end">📡 144.500 MHz</text>
-  <text x="550" y="50" class="text" text-anchor="end">💻 dev@radio</text>
-  <text x="550" y="70" class="text" text-anchor="end">⚡ OBD2 // SDR // C++</text>
+  <text x="550" y="50" class="text" text-anchor="end">💻 https://www.linkedin.com/in/vablagodarov</text>
+  <text x="550" y="70" class="text" text-anchor="end">⚡ ITSM // JS // SQL // Java</text>
 </svg>
